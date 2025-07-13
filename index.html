@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>Astral by HTML5 UP</title>
+	<title>Lusmacaron</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -25,6 +25,7 @@
 		<nav id="nav">
 			<a href="#" class="icon solid fa-home"><span>Home</span></a>
 			<a href="#work" class="icon solid fa-folder"><span>Work</span></a>
+			<a href="#favorite" class="icon solid fa-heart"><span>Favorite</span></a>
 			<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
 		</nav>
 
@@ -35,11 +36,9 @@
 			<article id="home" class="panel intro">
 				<header>
 					<h1>강동성</h1>
-					<p>소프트웨어융합학과 4학년(20학번)</p>
+					<p>소프트웨어융합학과 4학년</p>
 				</header>
-				<div class="pic">
-					<img src="images/me.jpg"/>
-				</div>
+				<img src="images/me.jpg" class="my-photo" />
 			</article>
 
 			<!-- Work -->
@@ -47,71 +46,90 @@
 				<header>
 					<h2>Work</h2>
 				</header>
-				<p>
-					Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-					Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-					luctus elit eget interdum.
-				</p>
 				<section>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+							<a href="https://github.com/lusmacaron" target="_blank" class="image fit">
+								<img src="images/github.jpg" />
+							</a>
 						</div>
 						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic08.jpg" alt=""></a>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic11.jpg" alt=""></a>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
+							<a href="https://ehdtjd3660.tistory.com/" target="_blank" class="image fit">
+								<img src="images/tistory.jpg" alt=""></a>
 						</div>
 					</div>
 				</section>
 			</article>
+
+			<!-- Favorite -->
+			<article id="favorite" class="panel">
+				<header>
+					<h2>My Favorites</h2>
+				</header>
+
+				<!-- 게임 -->
+				<section>
+					<h3>Game</h3>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<span class="image fit tooltip"><img src="images/valorant.jpg" />
+								<span class="tooltiptext">발로란트</span>
+							</span>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<span class="image fit tooltip"><img src="images/deltaforce.jpg" />
+								<span class="tooltiptext">델타포스</span>
+							</span>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<span class="image fit tooltip"><img src="images/overwatch.jpg" />
+								<span class="tooltiptext">오버워치</span>
+							</span>
+						</div>
+					</div>
+				</section>
+
+				<!-- 음악 -->
+				<section>
+					<h3>Music</h3>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<span class="image fit tooltip"><img src="images/greenapple.jpg" />
+								<span class="tooltiptext">MrsGREENAPPLE</span>
+							</span>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<span class="image fit tooltip"><img src="images/yellogreen.jpg" />
+								<span class="tooltiptext">녹황색사회</span>
+							</span>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<span class="image fit tooltip"><img src="images/vaundy.jpg" />
+								<span class="tooltiptext">바운디</span>
+							</span>
+						</div>
+					</div>
+				</section>
+			</article>
+
+
 			<!-- Contact -->
 			<article id="contact" class="panel">
 				<header>
 					<h2>Contact Me</h2>
+					<p>궁금한 점이 있으시면 편하게 메시지를 남겨주세요!</p>
 				</header>
-				<form action="#" method="post">
+				<form id="contact-form">
 					<div>
 						<div class="row">
 							<div class="col-6 col-12-medium">
-								<input type="text" name="name" placeholder="Name" />
+								<input type="text" name="from_name" placeholder="이름" required />
 							</div>
 							<div class="col-6 col-12-medium">
-								<input type="text" name="email" placeholder="Email" />
+								<input type="email" name="from_email" placeholder="이메일 주소" required />
 							</div>
 							<div class="col-12">
-								<input type="text" name="subject" placeholder="Subject" />
-							</div>
-							<div class="col-12">
-								<textarea name="message" placeholder="Message" rows="6"></textarea>
+								<textarea name="message" placeholder="메시지를 입력하세요" required></textarea>
 							</div>
 							<div class="col-12">
 								<input type="submit" value="Send Message" />
@@ -138,6 +156,28 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script>
+		emailjs.init("YjcjAi1MSAjG1zkV8"); // ← 본인의 Public Key로 대체
+	</script>
+
+	<script>
+		document.getElementById("contact-form").addEventListener("submit", function (e) {
+			e.preventDefault();
+
+			emailjs.sendForm("service_lusmcaron", "template_lusmacaron", this)
+				.then(function (response) {
+					alert("메일이 성공적으로 전송되었습니다!");
+					console.log("SUCCESS!", response.status, response.text);
+				}, function (error) {
+					alert("메일 전송에 실패했습니다. 다시 시도해주세요.");
+					console.log("FAILED...", error);
+				});
+
+			// 폼 초기화
+			this.reset();
+		});
+	</script>
 
 </body>
 
