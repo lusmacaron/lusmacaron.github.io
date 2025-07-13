@@ -165,7 +165,7 @@
 		document.getElementById("contact-form").addEventListener("submit", function (e) {
 			e.preventDefault();
 
-			emailjs.sendForm("service_lusmcaron", "template_lusmacaron", this)
+			emailjs.sendForm("service_lusmacaron", "template_lusmacaron", this)
 				.then(function (response) {
 					alert("메일이 성공적으로 전송되었습니다!");
 					console.log("SUCCESS!", response.status, response.text);
